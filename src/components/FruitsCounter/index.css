@@ -1,0 +1,91 @@
+/* Write your CSS here */
+.body {
+  margin: 0px;
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd569;
+  height: 100vh;
+}
+.white-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  width: 90%;
+  padding: 30px;
+
+  max-width: 1110px;
+}
+@media screen and (min-width: 768px) {
+  .white-card {
+    width: 80%;
+    padding-top: 96px;
+    padding-left: 64px;
+    padding-right: 64px;
+    padding-bottom: 96px;
+    height: 90%;
+  }
+}
+.fruit-image {
+  height: 40vh;
+  width: 200px;
+}
+@media screen and (min-width: 992px) {
+  .fruit-image {
+    width: 296px;
+    height: 275px;
+  }
+}
+.head {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .head {
+    font-size: 48px;
+  }
+}
+.count {
+  font-family: 'roboto';
+  font-size: 30px;
+  color: #ffd569;
+  font-weight: bold;
+}
+.fruits-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .fruits-flex {
+    flex-direction: row;
+  }
+}
+.button {
+  margin: 20px;
+  background-color: #007bff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border-width: 0px;
+  color: #ffffff;
+  width: 80px;
+  height: 24px;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.mango-flex {
+  display: flex;
+  flex-direction: column;
+}
+.button-container {
+  text-align: center;
+}
